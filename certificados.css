@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*  #B9F0EB azul
+    #A39A76 cinza
+    */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+    :root {
+        --cor1: #B9F0EB;
+        --cor2: #A39A76;
+        --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+        --fonte-destaque: 'Bebas Neue', cursive;
+
+
+    }
+*{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+   
+}
+
+a {
+    color: rgb(82, 81, 81);
+    text-decoration: none;
+    font-family: var(--fonte-destaque);
+    padding-right: 5px;
+    font-weight:bolder;
+    font-size: 25px;
+    text-align: center;
+ 
+    
+
+}
+header{
+    color: rgb(82, 81, 81);
+    font-family: var(--fonte-destaque);
+  
+    text-shadow: 10px, 10px, 10px black;
+  
+    
+    
+}
+
+header > img {
+
+    height: 150px;
+    width: auto;
+    
+   
+    
+}
+
+body {
+    background-image: url('fundo.jfif');
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-align:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 0%;
+    height: 105vh;
+    color: rgb(82, 81, 81);
+}
+
+h1 {
+    color: rgb(82, 81, 81);
+    text-decoration: none;
+    font-family: var(--fonte-destaque);
+    padding-right: 5px;
+    font-weight:bolder;
+    font-size: 25px;
+    text-align: center;
+}
+.conteudo-principal {
+    border-top: 0.5px solid #073e39;}
+
+    div#divhard {
+        width: 49%;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 50px;
+    }
+
+    div#divsoft {
+        width: 49%;
+        min-width: 250px;
+        display: inline-block;
+        vertical-align: top;
+        border-left: 0.5px solid #073e39;
+        padding-top: 50px;
+    }
+
+    a:hover {
+        font-size: larger;
+    }
+    footer {
+        font-family: var(--fonte-destaque);
+    
+        
+        width: 100%;
+        color:gray;
+        padding-top: 400px;
+       
+    
+    
+    }
+    p#rodape {
+        text-align: center;
+        font-weight: bold;
+        border-top: 0.5px solid #073e39;
+    }
